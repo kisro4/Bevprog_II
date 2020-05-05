@@ -2,12 +2,12 @@
 #include "graphics.hpp"
 using namespace genv;
 
-Palya::Palya (int x, int y)
+Palya::Palya (int x, int y): Widget(75, 75, 600, 600, "AmobaTabla", nullptr)
 {
     sor=x;
     oszlop=y;
 }
-void Palya::rajzol()const
+void Palya::draw()
 {
     //oszlopok
     for(int i=75; i<= 525; i=i+30)
@@ -28,6 +28,7 @@ void Palya::rajzol()const
         }
 
     }
-    gout << refresh;
+}
 
+void Palya::process(genv::event& ev) {
 }

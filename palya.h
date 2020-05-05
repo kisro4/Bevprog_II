@@ -1,14 +1,15 @@
 #ifndef PALYA_H_INCLUDED
 #define PALYA_H_INCLUDED
-class Palya
+#include "widgets.hpp"
+class Palya : public Widget
 {
     protected:
     int sor,oszlop;
 
     public:
         Palya (int sor, int oszlop);
-        void rajzol()const;
-
+        void draw() override;
+        void process(genv::event& ev) override;
 
 };
 

@@ -20,3 +20,26 @@
 
 1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
 
+1588687266 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
+	"graphics.hpp"
+	"palya.h"
+
+1581496025 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\include\graphics.hpp
+	<string>
+
+1588687812 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
+	"widgets.hpp"
+
+1588687594 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+	"palya.h"
+	"graphics.hpp"
+
+1588687566 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.hpp
+	"graphics.hpp"
+	<vector>
+	<functional>
+
+1588687451 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
