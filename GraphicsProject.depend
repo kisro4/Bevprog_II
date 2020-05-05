@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1588676310 source:c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\main.cpp
+	"graphics.hpp"
+	"palya.h"
+
+1581496025 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\include\graphics.hpp
+	<string>
+
+1588440287 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\palya.h
+
+1588440287 source:c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\palya.cpp
+	"palya.h"
+	"graphics.hpp"
+
+1588675317 source:c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\jatekmester.cpp
+	"palya.h"
+
+1588676310 source:c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.cpp
+	"widgets.h"
+
+1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
+
