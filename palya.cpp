@@ -2,10 +2,15 @@
 #include "graphics.hpp"
 using namespace genv;
 
-Palya::Palya (int x, int y): Widget(75, 75, 600, 600, "AmobaTabla", nullptr)
+Palya::Palya (int x, int y): Widget(75, 75, 600, 600)
 {
     sor=x;
     oszlop=y;
+
+
+
+
+
 }
 void Palya::draw()
 {

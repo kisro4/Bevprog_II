@@ -20,9 +20,11 @@
 
 1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
 
-1588687266 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
+1588791014 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
 	"graphics.hpp"
 	"palya.h"
+	"cella.h"
+	<vector>
 
 1581496025 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\include\graphics.hpp
 	<string>
@@ -30,16 +32,23 @@
 1588687812 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
 	"widgets.hpp"
 
-1588687594 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+1588788878 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
 	"palya.h"
 	"graphics.hpp"
 
-1588687566 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.hpp
+1588788835 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.hpp
 	"graphics.hpp"
 	<vector>
 	<functional>
 
-1588687451 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.cpp
+1588788875 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.cpp
 	"widgets.hpp"
+	"graphics.hpp"
+
+1588790081 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
+	"widgets.hpp"
+
+1588790953 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
+	"cella.h"
 	"graphics.hpp"
 

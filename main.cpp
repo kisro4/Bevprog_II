@@ -1,5 +1,6 @@
 #include "graphics.hpp"
 #include "palya.h"
+#include "cella.h"
 #include <vector>
 
 using namespace std;
@@ -37,6 +38,18 @@ int main()
     Palya * tabla = new Palya(15,15);
     vector<Widget*> widgets;
     widgets.push_back(tabla);
+    vector<Widget*> cellak;
+    for(int i= 0; i <15; i++)
+    {
+    for(int j= 0; j<15; j++){
+        Cella * c = new Cella(75+i*30,75+j*30,30,30);
+        cellak.push_back(c);
+        widgets.push_back(c);
+    }
+    }
+
+
+
 
     event_loop(widgets);
 

@@ -9,10 +9,9 @@ class Widget {
 protected:
     int _x, _y, _size_x, _size_y;
     std::vector<Widget*> subWidgets;
-    Widget* _toTrigger;
     std::string _globalName;
 public:
-    Widget(int x, int y, int sx, int sy, std::string globalName, Widget* toTrigger);
+    Widget(int x, int y, int sx, int sy);
     virtual ~Widget();
     virtual bool is_selected(int mouse_x, int mouse_y);
     virtual void draw() = 0;

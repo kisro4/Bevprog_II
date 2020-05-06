@@ -2,10 +2,8 @@
 #include "graphics.hpp"
 using namespace genv;
 
-Widget::Widget(int x, int y, int sx, int sy,
-               std::string globalName, Widget* toTrigger = nullptr)
-               : _x(x), _y(y), _size_x(sx), _size_y(sy),
-               _globalName(globalName), _toTrigger(toTrigger)
+Widget::Widget(int x, int y, int sx, int sy)
+               : _x(x), _y(y), _size_x(sx), _size_y(sy)
 {
 }
 
