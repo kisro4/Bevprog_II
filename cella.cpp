@@ -11,7 +11,7 @@ Cella:: Cella (int x, int y, int sx, int sy): Widget( x,  y,  sx,  sy)
 
 void Cella:: draw()
 {
-    gout << move_to(_x+2,_y+2)<< color(255,255,255) << box(_size_x-2, _size_y-2);
+    gout << move_to(_x+2,_y+2)<< color(140,72,0) << box(_size_x-3, _size_y-3);
 }
 
 void Cella::process(genv::event& ev)

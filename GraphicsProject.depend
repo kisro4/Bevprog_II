@@ -20,7 +20,7 @@
 
 1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
 
-1588791014 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
+1588791521 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
 	"graphics.hpp"
 	"palya.h"
 	"cella.h"
@@ -32,7 +32,7 @@
 1588687812 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
 	"widgets.hpp"
 
-1588788878 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+1588791669 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
 	"palya.h"
 	"graphics.hpp"
 
@@ -48,7 +48,7 @@
 1588790081 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
 	"widgets.hpp"
 
-1588790953 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
+1588791604 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
 	"cella.h"
 	"graphics.hpp"
 
