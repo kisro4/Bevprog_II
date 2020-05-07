@@ -3,7 +3,7 @@
 #include "cella.h"
 using namespace genv;
 
-Palya::Palya (int x, int y): Widget(75, 75, 600, 600)
+Palya::Palya (int x, int y, Jatekmester* jm): Widget(75, 75, 600, 600)
 {
     sor=x;
     oszlop=y;
@@ -12,7 +12,7 @@ Palya::Palya (int x, int y): Widget(75, 75, 600, 600)
     for(int i= 0; i <15; i++)
     {
         for(int j= 0; j<15; j++){
-            Cella * c = new Cella(75+i*30+1,75+j*30+1,29,29, i, j);
+            Cella * c = new Cella(75+i*30+1,75+j*30+1,29,29, i, j,jm);
             subWidgets.push_back(c);
         }
     }

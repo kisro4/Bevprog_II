@@ -1,6 +1,7 @@
 #include "graphics.hpp"
 #include "palya.h"
 #include "cella.h"
+#include "jatekmester.h"
 #include <vector>
 
 using namespace std;
@@ -35,7 +36,8 @@ int main()
 {
     gout.open(600,600);
     event ev;
-    Palya * tabla = new Palya(15,15);
+    Jatekmester * j = new Jatekmester();
+    Palya * tabla = new Palya(15,15,j);
     vector<Widget*> widgets;
     widgets.push_back(tabla);
 

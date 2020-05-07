@@ -20,19 +20,21 @@
 
 1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
 
-1588854578 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
+1588859187 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
 	"graphics.hpp"
 	"palya.h"
 	"cella.h"
+	"jatekmester.h"
 	<vector>
 
 1581496025 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\include\graphics.hpp
 	<string>
 
-1588687812 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
+1588859228 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
 	"widgets.hpp"
+	"jatekmester.h"
 
-1588855373 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+1588859187 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
 	"palya.h"
 	"graphics.hpp"
 	"cella.h"
@@ -46,13 +48,18 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1588855731 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
+1588859210 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
 	"widgets.hpp"
+	"jatekmester.h"
 
-1588854479 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
+1588859187 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
 	"cella.h"
 	"graphics.hpp"
+	<iostream>
+	<cmath>
 
-1588675317 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
-	"palya.h"
+1588858675 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
+	"jatekmester.h"
+
+1588858699 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.h
 
