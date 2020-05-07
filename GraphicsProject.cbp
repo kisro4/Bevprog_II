@@ -40,9 +40,16 @@
 			<Add library="lib/libSDLmain.a" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="TODO.txt" />
+		<Unit filename="cella.cpp" />
+		<Unit filename="cella.h" />
+		<Unit filename="jatekmester.cpp" />
+		<Unit filename="jatekmester.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="palya.cpp" />
 		<Unit filename="palya.h" />
+		<Unit filename="widgets.cpp" />
+		<Unit filename="widgets.hpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

@@ -6,12 +6,18 @@
 class Cella : public Widget
 {
 protected:
-    bool ures, kor;
+    int s,o;
+    enum ALAKZAT {
+        URES,
+        KOR,
+        X
+    };
+    ALAKZAT alakzat;
     public:
-        Cella(int x,int y,int sx, int sy);
+       Cella(int x,int y,int sx, int sy, int s, int o);
        void draw() override;
-       //bool ürese(); //igaz-üres, hamis-teli
-       //bool kör(); //igaz-kör, hamis-x
+       //bool urese(); //igaz-üres, hamis-teli
+       //bool kor(); //igaz-kör, hamis-x
        void process(genv::event& ev) override; //beáálítja a cellát
 
 };
