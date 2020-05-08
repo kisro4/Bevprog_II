@@ -9,12 +9,7 @@ class Cella : public Widget
 protected:
     int s,o;
     Jatekmester* jm;
-    enum ALAKZAT {
-        URES,
-        KOR,
-        X
-    };
-    ALAKZAT alakzat;
+
     public:
        Cella(int x,int y,int sx, int sy, int s, int o,Jatekmester* jm);
        void draw() override;

@@ -4,6 +4,8 @@
 #include "jatekmester.h"
 #include <vector>
 
+#include <iostream>
+
 using namespace std;
 using namespace genv;
 
@@ -40,7 +42,6 @@ int main()
     Palya * tabla = new Palya(15,15,j);
     vector<Widget*> widgets;
     widgets.push_back(tabla);
-
 
     event_loop(widgets);
 

@@ -6,6 +6,7 @@ class Palya : public Widget
 {
     protected:
     int sor,oszlop;
+    Jatekmester* jm;
 
     public:
         Palya (int sor, int oszlop,Jatekmester* jm);
