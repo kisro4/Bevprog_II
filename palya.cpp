@@ -36,13 +36,17 @@ void Palya::draw()
         gout << move_to(75,i) << color(255,255,255) << dot ;
         gout << line(525-75,0) << color(255,255,255) << dot ;
     }
+    string s = "A tábla betelt";
     int nyertes = jm->nyertes();
+    string z="A nyertes: ";
+    string m="-es játékos";
     if(nyertes!=0)
     {
-        cout <<nyertes;
+        gout << move_to(210,30)<< color(255,10,32)<<text(z) <<text(to_string(nyertes))<< text(m);
     } else if(jm->telee())
+
     {
-        cout <<"A tábla betelt";
+        gout << move_to(30,280)<< color(255,10,32)<<text(s);
     }
 }
 

@@ -35,7 +35,7 @@
 	"widgets.hpp"
 	"jatekmester.h"
 
-1588952972 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+1589046127 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
 	"palya.h"
 	"graphics.hpp"
 	"cella.h"
@@ -60,7 +60,7 @@
 	<iostream>
 	<cmath>
 
-1588954475 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
+1588967589 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
 	"jatekmester.h"
 	<iostream>
 

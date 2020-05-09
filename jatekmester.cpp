@@ -24,7 +24,6 @@ void Jatekmester::restart()
 
 char Jatekmester:: valtoztat(int y, int x)
 {
-    std::cout << "valtoztat: " << y << ", " << x << std::endl;
     char ch = tomb[y][x];
     if (vege) {
         return ch;
