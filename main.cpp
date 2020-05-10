@@ -1,4 +1,3 @@
-#include "graphics.hpp"
 #include "palya.h"
 #include "cella.h"
 #include "jatekmester.h"
@@ -9,10 +8,11 @@
 using namespace std;
 using namespace genv;
 
-void event_loop(vector<Widget*>& widgets) {
+void event_loop(vector<Widget*>& widgets,Jatekmester * j,Palya * tabla) {
     event ev;
     int focus = -1;
     while(gin >> ev ) {
+            tabla->jatekosok();
         if (ev.type == ev_mouse && ev.button==btn_left) {
             for (size_t i=0;i<widgets.size();i++) {
                 if (widgets[i]->is_selected(ev.pos_x, ev.pos_y)) {
@@ -30,6 +30,13 @@ void event_loop(vector<Widget*>& widgets) {
         for (Widget * w : widgets) {
             w->draw_all();
         }
+         if(ev.type=ev_key && ev.keycode==key_enter)
+        {
+            j->restart();
+            tabla->rarajzol();
+
+
+        }
         gout << refresh;
     }
 }
@@ -43,7 +50,7 @@ int main()
     vector<Widget*> widgets;
     widgets.push_back(tabla);
 
-    event_loop(widgets);
+    event_loop(widgets,j,tabla);
 
     return 0;
 }

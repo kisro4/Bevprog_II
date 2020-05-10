@@ -1,5 +1,6 @@
 #include "jatekmester.h"
 #include <iostream>
+
 Jatekmester:: Jatekmester()
 {
     restart();
@@ -16,6 +17,7 @@ void Jatekmester::restart()
     }
     jatekos = 1;
     vege = false;
+
 }
 
 // 0: ures

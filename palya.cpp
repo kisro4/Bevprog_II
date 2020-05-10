@@ -20,6 +20,7 @@ Palya::Palya (int x, int y, Jatekmester* jm): Widget(75, 75, 600, 600)
     }
 
 
+
 }
 void Palya::draw()
 {
@@ -40,6 +41,7 @@ void Palya::draw()
     int nyertes = jm->nyertes();
     string z="A nyertes: ";
     string m="-es játékos";
+    string u= "Újrakezdéshez nyomja meg az ENTER-t";
     if(nyertes!=0)
     {
         gout << move_to(210,30)<< color(255,10,32)<<text(z) <<text(to_string(nyertes))<< text(m);
@@ -48,7 +50,23 @@ void Palya::draw()
     {
         gout << move_to(30,280)<< color(255,10,32)<<text(s);
     }
+    if(nyertes!=0 || jm->telee())
+    {
+        gout << move_to(170,55)<< color(255,60,70)<< text(u);
+    }
 }
 
 void Palya::process(genv::event& ev) {
+}
+void Palya:: rarajzol()
+{
+    gout << move_to(0,10)<< color(0,0,0)<< box(600,50);
+}
+void Palya::jatekosok()
+{
+    string x = "1-es játékos: X";
+    string k= "2-es játékos: O";
+    gout << move_to(10,550)<< color(255,255,255)<< text(x);
+    gout << move_to(10,580)<< color(255,255,255)<< text(k);
+
 }

@@ -20,8 +20,7 @@
 
 1588676310 c:\users\roli2\desktop\egyetem\bevprog ii\3.beadando\widgets.h
 
-1588952330 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
-	"graphics.hpp"
+1589132304 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\main.cpp
 	"palya.h"
 	"cella.h"
 	"jatekmester.h"
@@ -31,38 +30,38 @@
 1581496025 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\include\graphics.hpp
 	<string>
 
-1588931831 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
+1589132218 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.h
 	"widgets.hpp"
 	"jatekmester.h"
 
-1589046127 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
+1589132225 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\palya.cpp
 	"palya.h"
 	"graphics.hpp"
 	"cella.h"
 	<iostream>
 
-1588788835 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.hpp
+1589129557 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.hpp
 	"graphics.hpp"
 	<vector>
 	<functional>
 
-1588788875 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.cpp
+1589129557 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 
-1588953594 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
+1589131744 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.h
 	"widgets.hpp"
 	"jatekmester.h"
 
-1588954107 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
+1589131865 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\cella.cpp
 	"cella.h"
 	"graphics.hpp"
 	<iostream>
 	<cmath>
 
-1588967589 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
+1589131755 source:c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.cpp
 	"jatekmester.h"
 	<iostream>
 
-1588954207 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.h
+1589131297 c:\users\roli2\desktop\egyetem\bevprog ii\amoba\bevprog_ii\jatekmester.h
 

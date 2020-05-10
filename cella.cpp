@@ -9,6 +9,7 @@ Cella:: Cella (int x, int y, int sx, int sy,int s,int o, Jatekmester* jm): Widge
     this->s= s;
     this->o= o;
     this->jm = jm;
+
 }
 
 void Cella:: draw()
@@ -43,7 +44,10 @@ void Cella::process(genv::event& ev)
     if(ev.type == ev_mouse)
     {
         jm->valtoztat(s,o);
+
     }
+
+
 }
 
 

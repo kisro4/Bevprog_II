@@ -13,9 +13,7 @@ protected:
     public:
        Cella(int x,int y,int sx, int sy, int s, int o,Jatekmester* jm);
        void draw() override;
-       //bool urese(); //igaz-üres, hamis-teli
-       //bool kor(); //igaz-kör, hamis-x
-       void process(genv::event& ev) override; //beáálítja a cellát
+       void process(genv::event& ev) override;
 
 };
 

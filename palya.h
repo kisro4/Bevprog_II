@@ -11,6 +11,8 @@ class Palya : public Widget
     public:
         Palya (int sor, int oszlop,Jatekmester* jm);
         void draw() override;
+        void rarajzol();
+        void jatekosok();
         void process(genv::event& ev) override;
 
 };
